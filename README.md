@@ -16,4 +16,4 @@ You can clone the repository, put the self-hosted bot's token in token.txt and r
 ### Libraries
 - [SinisterRectus/Discordia](https://github.com/SinisterRectus/Discordia)
 
-and also for hosting, [Luvit](https://luvit.io) ([link to repo](https://github.com/luvit/luvit))
+and also for running it, [Luvit](https://luvit.io) ([link to repo](https://github.com/luvit/luvit))
