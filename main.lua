@@ -17,7 +17,6 @@ local embedcolor = 0x38e3fc
 local server = {
 	id = "1527755278010023996",
 	bugreportchannel = "1527756530634723449",
-	serverrequestchannel = "1528120109627867268",
 }
 local success = ":3"
 local err = ":'C"
@@ -297,14 +296,14 @@ client:on("messageCreate", function(message)
 		end
 	elseif message.content == prefix.."createcolorroles" then
 		if message.member:hasPermission("manageRoles") then
-			client:getGuild(server.id):createRole("red"):setColor(0xff0000)
-			client:getGuild(server.id):createRole("orange"):setColor(0xff8000)
-			client:getGuild(server.id):createRole("yellow"):setColor(0xffd600)
-			client:getGuild(server.id):createRole("green"):setColor(0x00ff00)
-			client:getGuild(server.id):createRole("lightblue"):setColor(0x00deff)
-			client:getGuild(server.id):createRole("blue"):setColor(0x0000ff)
-			client:getGuild(server.id):createRole("purple"):setColor(0x9000ff)
-			client:getGuild(server.id):createRole("pink"):setColor(0xff00ff)
+			message.guild:createRole("red"):setColor(0xff0000)
+			message.guild:createRole("orange"):setColor(0xff8000)
+			message.guild:createRole("yellow"):setColor(0xffd600)
+			message.guild:createRole("green"):setColor(0x00ff00)
+			message.guild:createRole("lightblue"):setColor(0x00deff)
+			message.guild:createRole("blue"):setColor(0x0000ff)
+			message.guild:createRole("purple"):setColor(0x9000ff)
+			message.guild:createRole("pink"):setColor(0xff00ff)
 			message:reply(success)
 		end
 	elseif message.content == prefix.."whatsapp" then
