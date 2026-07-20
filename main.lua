@@ -4,10 +4,8 @@ amazing software i guess lol????
 
 notes:
 * commented code is just deleted from the bot
-* prefixes still hardcoded but i will change that soon
 * this bot is wip and still has bugs, it is also very incomplete
 * more stuff that i dont have in mind
-* i forgot to tell that slash commands dont work anymore
 --]]
 
 local discordia = require("discordia")
