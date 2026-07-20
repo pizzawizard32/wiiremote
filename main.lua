@@ -10,7 +10,7 @@ notes:
 
 local discordia = require("discordia")
 local client = discordia.Client()
-local botver = "3.0.0-alpha"
+local botver = "3.0.1-alpha"
 local embedcolor = 0x38e3fc
 local server = {
 	id = "1527755278010023996",
