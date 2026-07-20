@@ -7,4 +7,4 @@ WiiRemote is a free and open-source, general-purpose Discord bot written in Lua.
 You can invite WiiRemote to your server [here](https://discord.com/oauth2/authorize?client_id=1527750499011530812&permissions=8&integration_type=0&scope=bot+applications.commands)
 
 ### Self-hosting
-You can clone the repository, go to the bottom of main.lua and replace "TOKEN" (don't replace "Bot") with your self-hosted bot's token and then invite it to your server with bot scope enabled (make sure that all intents are enabled too)
+You can clone the repository, put the self-hosted bot's token in token.txt and run it with login.bat, and then you can invite it to your server.
