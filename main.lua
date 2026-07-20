@@ -316,4 +316,7 @@ client:on("messageCreate", function(message)
 	end
 end)
 
-client:run("Bot TOKEN")
+local file = io.open("./token.txt", "r")
+local token = file:read("*all")
+file:close()
+client:run("Bot "..token)
