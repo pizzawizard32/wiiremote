@@ -8,3 +8,10 @@ You can invite WiiRemote to your server [here](https://discord.com/oauth2/author
 
 ### Self-hosting
 You can clone the repository, put the self-hosted bot's token in token.txt and run it with login.bat, and then you can invite it to your server.
+
+### Credits
+- programming: pizzawizard32
+- hosting: tuxza
+
+### Libraries
+- [SinisterRectus/Discordia](https://github.com/SinisterRectus/Discordia)
